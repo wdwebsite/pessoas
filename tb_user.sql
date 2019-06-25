@@ -5,7 +5,7 @@ CREATE TABLE IF NOT EXISTS `WDGESTOR`.`WD_USER` (
   `CO_SEQ_ID_US` INT NOT NULL AUTO_INCREMENT COMMENT 'Identificador da Tabela, chave primária.',
   `NO_NOME_US` VARCHAR(100) NULL COMMENT 'Nome do usuário',
   `NO_EMAIL_US` VARCHAR(100) NULL COMMENT 'Email do usuário',
-  `DS_SENHA_US` VARCHAR(100) NULL COMMENT 'Senha do usuário',
+  `DS_SENHA_US` VARCHAR(100) NULL COMMENT 'Senha do usário',
   `IM_FOTO_US` LONGTEXT NULL COMMENT 'Foto do usuário',
   `DT_DATA_NAS_US` DATE NULL COMMENT 'Data de nascimento do usuário',
   `ST_STATUS_US` INT NULL COMMENT 'Status 0 - inativo ou 1 - ativo',
